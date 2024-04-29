@@ -1,4 +1,0 @@
-[build]
-    base = "fundamentos-react/"
-    publish = "/public
-    command  = "npm run build"
