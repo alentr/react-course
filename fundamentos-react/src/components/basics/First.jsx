@@ -1,4 +1,4 @@
-export default function First() {
+const First = function First() {
     const msg = 'Welcome to first component!';
     return (
         <div>
@@ -7,3 +7,5 @@ export default function First() {
         </div>
     );
 }
+
+export default First;

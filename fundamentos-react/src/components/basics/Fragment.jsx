@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Fragment(props) {
+const Fragment = function Fragment(props) {
     return (
         // isso faz que o componente não precise ter uma div em volta dele
         <>
@@ -9,3 +9,5 @@ export default function Fragment(props) {
         </>
     )
 }
+
+export default Fragment;

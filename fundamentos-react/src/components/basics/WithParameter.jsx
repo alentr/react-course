@@ -1,4 +1,4 @@
-export default function WithParameter(props) {
+const WithParameter = (props) => {
     console.log(props);
     const status = props.number >= 7 ? 'Approved' : 'Disapproved';
     return (
@@ -10,3 +10,5 @@ export default function WithParameter(props) {
         </div>
     );
 }
+
+export default WithParameter;

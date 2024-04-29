@@ -1,6 +1,6 @@
 import "./Card.css";
 
-export default (props) => {
+const Card = (props) => {
     const { title, color } = props;
 
     const cardStyle = {
@@ -17,3 +17,5 @@ export default (props) => {
         </div>
     );
 }
+
+export default Card;

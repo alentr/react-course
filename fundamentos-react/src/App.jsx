@@ -10,8 +10,7 @@ import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import StudentsList from './components/loop/StudentsList';
 
-export default (props) => {
-
+const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
@@ -44,5 +43,6 @@ export default (props) => {
             </div>
         </div>
     )
-
 }
+
+export default App;

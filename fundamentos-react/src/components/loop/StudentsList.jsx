@@ -1,8 +1,8 @@
-import students from "../../data/students";
+import studentsData from "../../data/studentsData";
 
-export default (props) => {
+const Students = (props) => {
 
-    const list = students.map((student) => {
+    const list = studentsData.map((student) => {
         return (
             <li key={student.id}>
                 {student.id}) {student.name} - {student.grade}
@@ -18,3 +18,5 @@ export default (props) => {
         </div>
     )
 }
+
+export default Students;
