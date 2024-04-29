@@ -1,0 +1,12 @@
+npm i --legacy-peer-deps
+
+
+npx = comando que baixa as dependencia necessárias para criar o projeto e depois limpa tudo
+
+hot reload: mesmo com o servidor iniciado, as alterações feitas, são atualizadas sem a necessidade de fazer restart do server.
+
+no index.html, a tag <noScript> exibe uma informação quando o usuário desabilita o js no browser
+
+para o React, tanto faz o arquivo ser .js ou .jsx o react suporta ambos. Isso muda para a IDE te ajudar.
+
+Aula Componente Card #03: passar o style do CSS por parametro do componente
