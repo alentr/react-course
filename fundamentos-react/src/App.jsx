@@ -15,12 +15,16 @@ import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
 import IndirectFather from './components/communication/IndirectFather';
 import Input from './components/form/Input';
+import Counter from './components/counter/Counter';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Counter" color="#f47721">
+                    <Counter initialNumber={10} />
+                </Card>
                 <Card title="Controlled Components" color="#caccd1">
                     <Input/>
                 </Card>
