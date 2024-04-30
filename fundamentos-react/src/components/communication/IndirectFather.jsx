@@ -1,14 +1,15 @@
 import IndirectChild from "./IndirectChild";
+import { useState } from "react";
 
 const IndirectFather = (props) => {
-    let name = '?'
-    let age = 0
-    let bool = false
+    const [name, setName] = useState('?')
+    const [age, setAge] = useState(0)
+    const [bool, setBoll] = useState(false)
 
     function provideInformation(name, age, bool) {
-        name = name
-        age = age
-        bool = bool
+        setName(name)
+        setAge(age)
+        setBoll(bool)
     }
 
     return (
