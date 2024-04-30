@@ -13,7 +13,7 @@ import ProductsTable from './components/loop/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
-import IndirectFather from './components/communication/InderectFather';
+import IndirectFather from './components/communication/IndirectFather';
 
 const App = (props) => {
     return (
