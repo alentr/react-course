@@ -9,12 +9,24 @@ import Card from "./components/layout/Card";
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import StudentsList from './components/loop/StudentsList';
+import ProductsTable from './components/loop/ProductsTable';
+import EvenOrOdd from './components/conditional/EvenOrOdd';
+import UserInfo from './components/conditional/UserInfo';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Conditional Renderization" color="#00bce4">
+                    <EvenOrOdd number={20} />
+                    <UserInfo user={{ name: 'Alexandre Telles' }} />
+                    <UserInfo user={{ email: 'alexandre.ntr@gmail.com' }} />
+                    <UserInfo user={{ name: 'Ágda Telles', email: 'agda@gmail.com' }} />
+                </Card>
+                <Card title="Products Table" color="#7d3f98">
+                    <ProductsTable />
+                </Card>
                 <Card title="Loops" color="#4572ce">
                     <StudentsList />
                 </Card>
