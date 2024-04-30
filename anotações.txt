@@ -10,3 +10,6 @@ no index.html, a tag <noScript> exibe uma informação quando o usuário desabil
 para o React, tanto faz o arquivo ser .js ou .jsx o react suporta ambos. Isso muda para a IDE te ajudar.
 
 Aula Componente Card #03: passar o style do CSS por parametro do componente
+
+No react, é o estado que atualiza o componente. Por exemplo, um input, por padrão não da pra ser modificado pela interface, tem que fazer atualziar um estado (useState) e o state que vai atualizar a interface
+

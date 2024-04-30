@@ -14,12 +14,16 @@ import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
 import IndirectFather from './components/communication/IndirectFather';
+import Input from './components/form/Input';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Controlled Components" color="#caccd1">
+                    <Input/>
+                </Card>
                 <Card title="Indirect Communication" color="#89ba16">
                     <IndirectFather/>
                 </Card>
