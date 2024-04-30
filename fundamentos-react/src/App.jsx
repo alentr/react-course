@@ -13,12 +13,16 @@ import ProductsTable from './components/loop/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/communication/DirectFather';
+import IndirectFather from './components/communication/InderectFather';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Indirect Communication" color="#89ba16">
+                    <IndirectFather/>
+                </Card>
                 <Card title="Direct Communication" color="#f47721">
                     <DirectFather/>
                 </Card>
