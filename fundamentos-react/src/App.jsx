@@ -12,12 +12,16 @@ import StudentsList from './components/loop/StudentsList';
 import ProductsTable from './components/loop/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
+import DirectFather from './components/communication/DirectFather';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Direct Communication" color="#f47721">
+                    <DirectFather/>
+                </Card>
                 <Card title="Conditional Renderization" color="#00bce4">
                     <EvenOrOdd number={20} />
                     <UserInfo user={{ name: 'Alexandre Telles' }} />
