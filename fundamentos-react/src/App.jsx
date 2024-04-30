@@ -16,23 +16,27 @@ import DirectFather from './components/communication/DirectFather';
 import IndirectFather from './components/communication/IndirectFather';
 import Input from './components/form/Input';
 import Counter from './components/counter/Counter';
+import Mega from './components/mega/Mega';
 
 const App = (props) => {
     return (
         <div className="App">
             <h1>React from scratch</h1>
             <div className="Cards">
+                <Card title="Mega" color="#4572ce">
+                    <Mega quantity={8} />
+                </Card>
                 <Card title="Counter" color="#f47721">
                     <Counter initialNumber={10} />
                 </Card>
                 <Card title="Controlled Components" color="#caccd1">
-                    <Input/>
+                    <Input />
                 </Card>
                 <Card title="Indirect Communication" color="#89ba16">
-                    <IndirectFather/>
+                    <IndirectFather />
                 </Card>
                 <Card title="Direct Communication" color="#f47721">
-                    <DirectFather/>
+                    <DirectFather />
                 </Card>
                 <Card title="Conditional Renderization" color="#00bce4">
                     <EvenOrOdd number={20} />
